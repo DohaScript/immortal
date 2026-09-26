@@ -1,2 +1,2 @@
 -- ImmortalHub.lua (Full UI Scaler Edition)
--- Полный код пользователя сохранён без изменений.
+-- Original Lua code supplied by the user.
