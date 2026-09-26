@@ -489,7 +489,7 @@ AddToggle(VisSec1, "Distance ESP", CFG.ESP_Dist, function(v) CFG.ESP_Dist = v en
 AddToggle(VisSec1, "Chams ESP", CFG.ESP_Chams, function(v) CFG.ESP_Chams = v end)
 
 AddToggle(VisSec2, "Snaplines / Tracers", CFG.Tracers, function(v) CFG.Tracers = v end)
-AddToggle(VisSec2, "Custom Crosshair", CFG.Crosshair, function(v) CFG.Crosshair = v CrosshairFrame.Visible = v end)
+AddToggle(VisSec2, "Custom Crosshair", CFG.Crosshair, function(v) CFG.Crosshair = v end)
 AddToggle(VisSec2, "Custom Cam FOV", CFG.CamFOVEnabled, function(v) CFG.CamFOVEnabled = v end)
 AddSlider(VisSec2, "Field of View", 70, 120, CFG.CamFOVVal, function(v) CFG.CamFOVVal = v end)
 
